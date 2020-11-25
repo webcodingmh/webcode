@@ -1,0 +1,53 @@
+html, body
+{
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ width: 100%;
+}
+ul
+{
+    list-style-type: none;
+     top: -3%;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    height: 5%;
+    overflow: hidden;
+    color: white;
+}
+li a
+{ 
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.7% 8.27%;
+    color: white;    
+}
+li a.aktiv
+{
+background-color: transparent;
+color: white;
+}
+li a:hover
+{
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+}
+#Bild
+{
+         background-image: url(../bilder/Head1.jpg);
+width:1915px;
+height: 400px;
+}
+#Inhalt
+{
+margin-top: -2%;
+    background-color:#030303 ; 
+    color: white;
+}
+
